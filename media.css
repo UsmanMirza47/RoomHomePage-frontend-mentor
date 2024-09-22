@@ -1,0 +1,467 @@
+/* media quireis for 376px to 1330px */
+@media screen and (min-width:2181px) {
+    .main-box {
+        grid-template-columns: 65% 35%;
+        height: 800px;
+        grid-template-rows: 800px;
+    }
+
+    .navbar {
+        column-gap: 100px;
+        padding: 100px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    .navbar ul {
+        column-gap: 48px;
+    }
+
+    .blog {
+        padding: 80px;
+        row-gap: 32px;
+    }
+
+    .navbar ul li {
+        font-size: 32px;
+    }
+
+    .blog {
+        padding: 120px 120px;
+        row-gap: 64px;
+    }
+
+    .blog h1 {
+        font-size: 60px;
+    }
+
+    .blog p {
+        font-size: 32px;
+        line-height: 40px;
+
+    }
+
+    .blog button {
+        letter-spacing: 18px;
+        font-weight: 700;
+        font-size: 42px;
+    }
+
+    .image-slider {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .slider-button {
+        right: -220px;
+        width: 220px;
+        height: 100px;
+    }
+}
+
+/* media quireis for 376px to 1330px */
+@media screen and (min-width:1921px) and (max-width:2180px) {
+    .main-box {
+        grid-template-columns: 65% 35%;
+        height: 800px;
+        grid-template-rows: 800px;
+    }
+
+    .navbar {
+        column-gap: 100px;
+        padding: 100px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    .navbar ul {
+        column-gap: 48px;
+    }
+
+    .blog {
+        padding: 80px;
+        row-gap: 32px;
+    }
+
+    .navbar ul li {
+        font-size: 32px;
+    }
+
+    .blog {
+        padding: 100px;
+        row-gap: 32px;
+    }
+
+    .blog h1 {
+        font-size: 60px;
+    }
+
+    .blog p {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .blog button {
+        letter-spacing: 18px;
+        font-weight: 700;
+        font-size: 42px;
+    }
+
+    .image-slider {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .slider-button {
+        right: -220px;
+        width: 220px;
+        height: 100px;
+    }
+}
+
+/* media quireis for 376px to 1330px */
+@media screen and (min-width:1681px) and (max-width:1920px) {
+    .main-box {
+        grid-template-columns: 65% 35%;
+        height: 800px;
+        grid-template-rows: 800px;
+    }
+
+    .navbar {
+        column-gap: 100px;
+        padding: 100px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    .navbar ul {
+        column-gap: 48px;
+    }
+
+    .blog {
+        padding: 80px;
+        row-gap: 32px;
+    }
+
+    .navbar ul li {
+        font-size: 32px;
+    }
+
+    .blog {
+        padding: 80px;
+        row-gap: 32px;
+    }
+
+    .blog h1 {
+        font-size: 60px;
+    }
+
+    .blog p {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .blog button {
+        letter-spacing: 18px;
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .image-slider {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .slider-button {
+        right: -220px;
+        width: 220px;
+        height: 100px;
+    }
+}
+
+/* media quireis for 376px to 1330px */
+@media screen and (min-width:1581px) and (max-width:1680px) {
+    .main-box {
+        grid-template-columns: 65% 35%;
+        height: 800px;
+        grid-template-rows: 800px;
+    }
+
+    .navbar {
+        column-gap: 100px;
+        padding: 100px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    .navbar ul {
+        column-gap: 48px;
+    }
+
+    .blog {
+        padding: 80px;
+        row-gap: 32px;
+    }
+
+    .navbar ul li {
+        font-size: 32px;
+    }
+
+    .blog h1 {
+        font-size: 48px;
+    }
+
+    .blog p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .blog button {
+        letter-spacing: 18px;
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .image-slider {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .slider-button {
+        right: -220px;
+        width: 220px;
+        height: 100px;
+    }
+}
+
+/* media quireis for 376px to 1330px */
+@media screen and (min-width:1281px) and (max-width:1580px) {
+    .main-box {
+        grid-template-columns: 65% 35%;
+    }
+
+    .blog {
+        padding: 80px 80px;
+    }
+
+    .image-slider {
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+/* media quireis for 376px to 1330px */
+@media screen and (min-width:1261px) and (max-width:1280px) {
+    .blog {
+        padding: 80px 80px;
+    }
+}
+
+/* media quireis for 376px to 1330px */
+@media screen and (min-width:1186px) and (max-width:1260px) {
+    .blog {
+        padding: 70px 70px;
+    }
+
+    .blog h1 {
+        font-size: 32px;
+    }
+
+    .blog p {
+        font-size: 18px;
+    }
+
+    .blog button {
+        font-size: 20px;
+    }
+}
+
+/* media quireis for 376px to 1330px */
+@media screen and (min-width:801px) and (max-width:1185px) {
+    .main-box {
+        grid-template-columns: 65% 35%;
+    }
+
+    .image-slider {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .blog {
+        padding: 70px 70px;
+    }
+
+    .blog h1 {
+        font-size: 32px;
+    }
+
+    .blog p {
+        font-size: 18px;
+    }
+
+    .blog button {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width:800px) {
+    .main-box {
+        height: fit-content;
+        grid-template-columns: 800px;
+        grid-template-rows: 1fr auto;
+    }
+
+    .image-slider {
+        background-image: url(./images/desktop-image-hero-1.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 360px;
+        width: 100%;
+    }
+
+    .blog {
+        padding: 32px 24px 64px 24px;
+        row-gap: 32px;
+        align-items: start;
+    }
+
+    .blog h1 {
+        font-size: 38px;
+    }
+
+    .navbar {
+        column-gap: 320px;
+        position: relative;
+        padding: 50px 16px;
+    }
+
+    #logo {
+        cursor: pointer;
+        width: 100px;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    #close {
+        display: block;
+        padding-right: 40px;
+    }
+
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 50px;
+        background-color: var(--White);
+        color: var(--Black);
+        font-weight: 700;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+    }
+
+    .slider-button {
+        right: 0px;
+    }
+
+    /* -----------------------------
+About section
+------------------------------- */
+    .about-box {
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .about-text h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main-box {
+        height: fit-content;
+        grid-template-columns: 375px;
+        grid-template-rows: 1fr auto;
+    }
+
+    .image-slider {
+        background-image: url(./images/mobile-image-hero-1.jpg);
+        height: 360px;
+    }
+
+    .blog {
+        padding: 32px 24px 64px 24px;
+        row-gap: 32px;
+        align-items: start;
+    }
+
+    .blog h1 {
+        font-size: 38px;
+    }
+
+    .navbar {
+        column-gap: 120px;
+        position: relative;
+        padding: 50px 16px;
+    }
+
+    #logo {
+        cursor: pointer;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    #close {
+        display: block;
+        padding-right: 40px;
+    }
+
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 50px;
+        background-color: var(--White);
+        color: var(--Black);
+        font-weight: 700;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+    }
+
+    .slider-button {
+        right: 0px;
+    }
+
+    /* -----------------------------
+About section
+------------------------------- */
+    .about-box {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .about-text h2 {
+        font-size: 20px;
+    }
+}

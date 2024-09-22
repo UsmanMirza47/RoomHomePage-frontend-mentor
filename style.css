@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+    --Dark-Gray: hsl(0, 0%, 63%);
+    --Black: hsl(0, 0%, 0%);
+    --White: hsl(0, 0%, 100%);
+    ---Very-Dark-Gray: hsl(0, 0%, 27%);
+    --fs-para: 12px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+/* --------------------------
+    Main Box Style start
+----------------------------- */
+
+.main-box {
+    width: 100%;
+    height: 509px;
+    display: grid;
+    grid-template-rows: 509px;
+    grid-template-columns: 800px auto;
+}
+
+/* ------------------
+    image slider
+--------------------- */
+
+.image-slider {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/desktop-image-hero-1.jpg);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 50px;
+    padding: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+#hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+#close {
+    display: none;
+    cursor: pointer;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    column-gap: 24px;
+    color: var(--White);
+    font-weight: 500;
+}
+
+.navbar ul li {
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar ul li:hover:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 20%;
+    width: 50%;
+    height: 2px;
+    border-radius: 5px;
+    background-color: var(--White);
+}
+
+.slider-button {
+    position: absolute;
+    bottom: 0;
+    right: -120px;
+    width: 120px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.left-btn {
+    background-color: var(--Black);
+    cursor: pointer;
+}
+
+.right-btn {
+    background-color: var(--Black);
+    cursor: pointer;
+}
+
+.left-btn:hover {
+    background-color: var(--Dark-Gray);
+}
+
+.right-btn:hover {
+    background-color: var(--Dark-Gray);
+}
+
+.slider-button>span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------------
+    Article section
+--------------------- */
+
+article {
+    width: 100%;
+    height: 100%;
+}
+
+.blog {
+    padding: 100px 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    align-items: start;
+}
+
+.blog h1 {
+    font-size: 38px;
+}
+
+.blog p {
+    font-size: 20px;
+    color: var(--Dark-Gray);
+    line-height: 20px;
+}
+
+.blog button {
+    border: none;
+    outline: none;
+    background-color: var(--White);
+    letter-spacing: 8px;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.blog button:hover {
+    color: var(--Dark-Gray);
+}
+
+.available-box {
+    display: none;
+}
+
+.manufacture-box {
+    display: none;
+}
+
+/* -----------------------------
+About section
+------------------------------- */
+.about-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 37.05% 1fr;
+}
+
+.about-box>img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-text {
+    padding: 42px 32px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    align-items: start;
+    justify-content: start;
+}
+
+.about-text h2 {
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+
+.about-text p {
+    font-size: 16px;
+    color: var(--Dark-Gray);
+    line-height: 20px;
+}
+
